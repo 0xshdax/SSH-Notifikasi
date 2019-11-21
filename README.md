@@ -32,7 +32,12 @@ Lakukan login menggunakan ssh
 $ docker-compose up -d
 $ ssh root@yourip -p 2222
 ```
-default login ssh => root : root
+Default login ssh => root : root 
+
+Jika ingin mengganti password bisa edit `Dokerfile` dibagian : 
+```
+RUN echo "root:gantipassword" | chpasswd
+```
 
 ## Support
 <a href="https://whatismyipaddress.com/">https://whatismyipaddress.com/</a>
