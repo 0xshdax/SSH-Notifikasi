@@ -26,5 +26,12 @@ Lakukan login menggunakan ssh
 
 <img src="screenshot/SSH-Informasi.png">
 
+
+## Docker 
+```
+$ docker-compose up -d
+$ ssh root@yourip -p 2222
+```
+
 ## Support
 <a href="https://whatismyipaddress.com/">https://whatismyipaddress.com/</a>
