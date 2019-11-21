@@ -32,6 +32,7 @@ Lakukan login menggunakan ssh
 $ docker-compose up -d
 $ ssh root@yourip -p 2222
 ```
+default login ssh => root : root
 
 ## Support
 <a href="https://whatismyipaddress.com/">https://whatismyipaddress.com/</a>
