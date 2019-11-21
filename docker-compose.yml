@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  sshnotif:
+    build: .
+    image: ssh-log:latest
+    container_name: ssh-notifikasi
+    restart: always
+    ports:
+      - "2222:22"
