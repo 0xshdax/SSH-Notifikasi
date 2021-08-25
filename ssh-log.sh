@@ -3,8 +3,8 @@
 # @community : Zerobyte.ID | Bash.ID
 
 #### Setting TelegramBot ####
-apikey="" # Api key telegram
-chatid="" # Chat id telegram 
+apikey="1960801937:AAExkkyKNeHkYVUS3d2ejuS0DQG_n4T9DjA" # Api key telegram
+chatid="1455500705" # Chat id telegram 
 #############################
 
 DATE_LOG=$(date "+%d %b %Y %H:%M")
